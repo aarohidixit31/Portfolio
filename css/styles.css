@@ -2,46 +2,45 @@
     font-family: "Raleway";
     font-style: normal;
     font-weight: 100;
-    src: local("Raleway Thin"), local("Raleway-Thin"), url("fonts/Raleway-Thin.woff2") format("woff2")
+    src: local("Raleway Thin"),local("Raleway-Thin"),url("fonts/Raleway-Thin.woff2") format("woff2")
 }
 
 @font-face {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 300;
-    src: local("Raleway Light"), local("Raleway-Light"), url("fonts/Raleway-Light.woff2") format("woff2")
+    src: local("Raleway Light"),local("Raleway-Light"),url("fonts/Raleway-Light.woff2") format("woff2")
 }
 
 @font-face {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 400;
-    src: local("Raleway"), local("Raleway-Regular"), url("fonts/Raleway-Regular.woff2") format("woff2")
+    src: local("Raleway"),local("Raleway-Regular"),url("fonts/Raleway-Regular.woff2") format("woff2")
 }
 
 @font-face {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 500;
-    src: local("Raleway Medium"), local("Raleway-Medium"), url("fonts/Raleway-Medium.woff2") format("woff2")
+    src: local("Raleway Medium"),local("Raleway-Medium"),url("fonts/Raleway-Medium.woff2") format("woff2")
 }
 
 @font-face {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    src: local("Raleway Bold"), local("Raleway-Bold"), url("fonts/Raleway-Bold.woff2") format("woff2")
+    src: local("Raleway Bold"),local("Raleway-Bold"),url("fonts/Raleway-Bold.woff2") format("woff2")
 }
 
 @font-face {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 900;
-    src: local("Raleway Black"), local("Raleway-Black"), url("fonts/Raleway-Black.woff2") format("woff2")
+    src: local("Raleway Black"),local("Raleway-Black"),url("fonts/Raleway-Black.woff2") format("woff2")
 }
 
-html,
-body {
+html,body {
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -ms-font-smoothing: antialiased;
@@ -50,7 +49,7 @@ body {
 }
 
 body {
-    font: 16px/1.6 'Raleway', Arial, Helvetica, sans-serif;
+    font: 16px/1.6 'Raleway',Arial,Helvetica,sans-serif;
     color: #fff;
     text-align: center;
     background: #222
@@ -65,21 +64,7 @@ html {
     -ms-overflow-style: scrollbar
 }
 
-.alltrans,
-.social-icons li a,
-.owl-nav>button,
-.owl-nav>button:after,
-.counter-box,
-.about-img:after,
-.gallery-img img,
-.form-control,
-.owl-dot,
-.subscribe-row,
-.close-btn,
-.close-btn:before,
-.close-btn:after,
-.tag-btn,
-.btn {
+.alltrans,.social-icons li a,.owl-nav>button,.owl-nav>button:after,.counter-box,.about-img:after,.gallery-img img,.form-control,.owl-dot,.subscribe-row,.close-btn,.close-btn:before,.close-btn:after,.tag-btn,.btn {
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease
 }
@@ -89,15 +74,13 @@ a {
     text-decoration: none
 }
 
-a:hover,
-a:focus {
+a:hover,a:focus {
     color: #fff;
     outline: none;
     text-decoration: underline
 }
 
-@media screen and (-ms-high-contrast:active),
-(-ms-high-contrast:none) {
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
     a:active {
         background-color: transparent
     }
@@ -107,20 +90,14 @@ p {
     margin: 0 0 20px
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
     line-height: 1.2;
     margin: 0 0 20px;
     font-weight: 600;
     text-transform: uppercase
 }
 
-h1,
-h2 {
+h1,h2 {
     font-size: 32px
 }
 
@@ -152,7 +129,7 @@ h6 {
 }
 
 .no-margin {
-    margin: 0 !important
+    margin: 0!important
 }
 
 figure {
@@ -160,7 +137,7 @@ figure {
 }
 
 .opacity-no {
-    opacity: 1 !important
+    opacity: 1!important
 }
 
 video {
@@ -175,10 +152,10 @@ video {
     content: '';
     opacity: 0.75;
     background: #4096ee;
-    background: -moz-linear-gradient(top, #4096ee 0%, #39ced6 100%);
-    background: -webkit-linear-gradient(top, #4096ee 0%, #39ced6 100%);
-    background: linear-gradient(to bottom, #4096ee 0%, #39ced6 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4096ee', endColorstr='#39ced6', GradientType=0);
+    background: -moz-linear-gradient(top,#4096ee 0%,#39ced6 100%);
+    background: -webkit-linear-gradient(top,#4096ee 0%,#39ced6 100%);
+    background: linear-gradient(to bottom,#4096ee 0%,#39ced6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee',endColorstr='#39ced6',GradientType=0 );
     position: fixed;
     left: 0;
     top: 0;
@@ -196,7 +173,7 @@ video {
 }
 
 .fp-scrollable {
-    height: calc(100vh - 200px) !important
+    height: calc(100vh - 200px)!important
 }
 
 #fp-nav ul li a span {
@@ -216,8 +193,7 @@ video {
     border-radius: 10px
 }
 
-.btn:hover,
-.btn:focus {
+.btn:hover,.btn:focus {
     color: #fff;
     border-color: #fff;
     background: none
@@ -242,8 +218,7 @@ video {
     border-width: 1px
 }
 
-.btn.btn-outline:hover,
-.btn.btn-outline:focus {
+.btn.btn-outline:hover,.btn.btn-outline:focus {
     background: #fff;
     color: #222
 }
@@ -253,8 +228,7 @@ video {
     border-color: #222
 }
 
-.btn.btn-dark:hover,
-.btn.btn-dark:focus {
+.btn.btn-dark:hover,.btn.btn-dark:focus {
     background: #222;
     color: #fff
 }
@@ -275,10 +249,10 @@ video {
 }
 
 .preloader {
-    background: -moz-linear-gradient(top, #4096ee 0%, #39ced6 100%);
-    background: -webkit-linear-gradient(top, #4096ee 0%, #39ced6 100%);
-    background: linear-gradient(to bottom, #4096ee 0%, #39ced6 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4096ee', endColorstr='#39ced6', GradientType=0);
+    background: -moz-linear-gradient(top,#4096ee 0%,#39ced6 100%);
+    background: -webkit-linear-gradient(top,#4096ee 0%,#39ced6 100%);
+    background: linear-gradient(to bottom,#4096ee 0%,#39ced6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee',endColorstr='#39ced6',GradientType=0 );
     height: 100%;
     left: 0;
     position: fixed;
@@ -408,8 +382,7 @@ a#logo {
     margin-top: 4px
 }
 
-.navbar-nav li a:hover:after,
-.navbar-nav li.active a:after {
+.navbar-nav li a:hover:after,.navbar-nav li.active a:after {
     -webkit-transform: scale(1);
     transform: scale(1)
 }
@@ -452,8 +425,8 @@ a#logo {
     display: inline-block;
     line-height: 50px;
     text-align: center;
-    background: rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, 1);
+    background: rgba(255,255,255,0.1);
+    color: rgba(255,255,255,1);
     font-size: 18px
 }
 
@@ -531,8 +504,8 @@ a#logo {
 
 .about-img img {
     border-radius: 10px;
-    -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, .3);
-    box-shadow: 0 0 40px rgba(0, 0, 0, .3)
+    -webkit-box-shadow: 0 0 40px rgba(0,0,0,.3);
+    box-shadow: 0 0 40px rgba(0,0,0,.3)
 }
 
 .about-contentbox {
@@ -566,7 +539,7 @@ a#logo {
     text-transform: capitalize;
     font-size: 14px;
     padding: 30px 0px;
-    background: rgba(0, 0, 0, 0.25)
+    background: rgba(0,0,0,0.25)
 }
 
 .counter-box span {
@@ -589,8 +562,7 @@ a#logo {
     margin-bottom: 30px
 }
 
-.count-number,
-.counted {
+.count-number,.counted {
     display: block;
     font-size: 36px;
     font-weight: 700;
@@ -609,7 +581,7 @@ a#logo {
 }
 
 .services-list .item {
-    background-color: rgba(250, 250, 250, 0.25);
+    background-color: rgba(250,250,250,0.25);
     border-radius: 10px;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease
@@ -663,7 +635,7 @@ a#logo {
     width: 12px;
     height: 12px;
     margin: 0 5px;
-    background: rgba(255, 255, 255, .2)
+    background: rgba(255,255,255,.2)
 }
 
 .owl-carousel .owl-dots .owl-dot:focus {
@@ -692,7 +664,7 @@ a#logo {
     bottom: 0;
     text-align: left;
     padding: 20px;
-    background-color: rgba(250, 250, 250, 0.25);
+    background-color: rgba(250,250,250,0.25);
     width: 100%;
     height: 60px;
     border-top-left-radius: 0;
@@ -724,7 +696,7 @@ a#logo {
 .portfolio-item:hover .thumb-inner {
     border-radius: 10px;
     height: 100%;
-    background-color: rgba(250, 250, 250, 0.9)
+    background-color: rgba(250,250,250,0.9)
 }
 
 .portfolio-item:hover .thumb-inner h4 {
@@ -734,22 +706,22 @@ a#logo {
 }
 
 ::-webkit-input-placeholder {
-    color: #fff !important;
+    color: #fff!important;
     opacity: 1
 }
 
 ::-moz-placeholder {
-    color: #fff !important;
+    color: #fff!important;
     opacity: 1
 }
 
 :-ms-input-placeholder {
-    color: #fff !important;
+    color: #fff!important;
     opacity: 1
 }
 
 :-moz-placeholder {
-    color: #fff !important;
+    color: #fff!important;
     opacity: 1
 }
 
@@ -761,8 +733,8 @@ a#logo {
     height: 50px;
     color: #fff;
     border: none;
-    background: rgba(250, 250, 250, 0.05);
-    border: 1px solid rgba(250, 250, 250, 0.5);
+    background: rgba(250,250,250,0.05);
+    border: 1px solid rgba(250,250,250,0.5);
     border-radius: 10px;
     padding: 4px 22px;
     font-size: 14px;
@@ -772,64 +744,64 @@ a#logo {
 .form-control:focus {
     box-shadow: none;
     outline: none;
-    background: rgba(0, 0, 0, 0.05);
-    border: 1px solid rgba(250, 250, 250, 1);
+    background: rgba(0,0,0,0.05);
+    border: 1px solid rgba(250,250,250,1);
     color: #fff
 }
 
 .index .form-control.form-control-dark {
-    background: rgba(250, 250, 250, 0.75);
+    background: rgba(250,250,250,0.75);
     color: #fff
 }
 
 .index .form-control.form-control-dark:focus {
-    background: rgba(54, 40, 158, 0.85);
+    background: rgba(54,40,158,0.85);
     color: #fff
 }
 
 .index .form-control.form-control-dark::-webkit-input-placeholder {
-    color: #fff !important
+    color: #fff!important
 }
 
 .index .form-control.form-control-dark::-moz-placeholder {
-    color: #fff !important
+    color: #fff!important
 }
 
 .index .form-control.form-control-dark:-ms-input-placeholder {
-    color: #fff !important
+    color: #fff!important
 }
 
 .index .form-control.form-control-dark:-moz-placeholder {
-    color: #fff !important
+    color: #fff!important
 }
 
 .form-control.form-control-dark:focus {
-    background: rgba(0, 0, 0, 0.2)
+    background: rgba(0,0,0,0.2)
 }
 
 .form-control.form-control-dark {
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0,0,0,0.1);
     color: #222;
     border: none
 }
 
 .form-control.form-control-dark::-webkit-input-placeholder {
-    color: #222 !important;
+    color: #222!important;
     opacity: 0.7
 }
 
 .form-control.form-control-dark::-moz-placeholder {
-    color: #222 !important;
+    color: #222!important;
     opacity: 0.7
 }
 
 .form-control.form-control-dark:-ms-input-placeholder {
-    color: #222 !important;
+    color: #222!important;
     opacity: 0.7
 }
 
 .form-control.form-control-dark:-moz-placeholder {
-    color: #222 !important;
+    color: #222!important;
     opacity: 0.7
 }
 
@@ -869,7 +841,7 @@ textarea.form-control {
     -ms-flex-align: center;
     align-items: center;
     margin-bottom: 30px;
-    background: rgba(250, 250, 250, 0.25);
+    background: rgba(250,250,250,0.25);
     border-radius: 10px;
     padding: 30px;
     font-weight: 700
@@ -886,12 +858,12 @@ textarea.form-control {
 }
 
 .testimonials-section .item {
-    background-color: rgba(250, 250, 250, 0.25);
+    background-color: rgba(250,250,250,0.25);
     padding: 40px;
     border-radius: 10px
 }
-
-**************************************************************************************************************************************** .testimonials-section .item img {
+****************************************************************************************************************************************
+.testimonials-section .item img {
     width: 140px;
     height: 140px;
     margin: 0 auto
@@ -914,7 +886,7 @@ textarea.form-control {
 }
 
 .skill-item {
-    border-bottom: 1px solid rgba(250, 250, 250, 0.1);
+    border-bottom: 1px solid rgba(250,250,250,0.1);
     margin-bottom: 50px;
     padding-bottom: 50px
 }
@@ -953,7 +925,7 @@ textarea.form-control {
     width: 70%;
     height: 6px;
     border-radius: 3px;
-    background-color: rgba(250, 250, 250, 0.25);
+    background-color: rgba(250,250,250,0.25);
     position: relative
 }
 
@@ -977,14 +949,14 @@ textarea.form-control {
 
 @media only screen and (min-width: 768px) {
     .nav-box {
-        display: block !important;
-        height: auto !important
+        display:block!important;
+        height: auto!important
     }
 }
 
 @media only screen and (max-width: 1440px) {
     .welcome-title {
-        font-size: 100px;
+        font-size:100px;
         margin-bottom: 20px
     }
 
@@ -1018,8 +990,7 @@ textarea.form-control {
         font-size: 18px
     }
 
-    h1,
-    h2 {
+    h1,h2 {
         font-size: 56px;
         line-height: 1.05;
         margin-bottom: 10px
@@ -1064,7 +1035,7 @@ textarea.form-control {
 
 @media only screen and (max-width: 1199px) {
     #fp-nav.fp-right {
-        right: 5px
+        right:5px
     }
 
     .welcome-title:before {
@@ -1093,8 +1064,7 @@ textarea.form-control {
         font-size: 18px
     }
 
-    h1,
-    h2 {
+    h1,h2 {
         font-size: 48px
     }
 
@@ -1102,8 +1072,7 @@ textarea.form-control {
         font-size: 13px
     }
 
-    .count-number,
-    .counted {
+    .count-number,.counted {
         margin-bottom: 5px
     }
 
@@ -1130,8 +1099,8 @@ textarea.form-control {
         display: inline-block;
         line-height: 30px;
         text-align: center;
-        background: rgba(255, 255, 255, 0.1);
-        color: rgba(255, 255, 255, 1);
+        background: rgba(255,255,255,0.1);
+        color: rgba(255,255,255,1);
         font-size: 14px
     }
 
@@ -1142,7 +1111,7 @@ textarea.form-control {
 
 @media only screen and (max-width: 991px) {
     .welcome-box {
-        padding: 150px 0px
+        padding:150px 0px
     }
 
     .navbar-nav li a {
@@ -1178,7 +1147,7 @@ textarea.form-control {
     }
 
     .contact-row {
-        padding: 10px 15px !important;
+        padding: 10px 15px!important;
         font-size: 13px;
         margin-bottom: 15px
     }
@@ -1223,10 +1192,10 @@ textarea.form-control {
 
 @media only screen and (max-width: 767px) {
     #header {
-        position: fixed;
+        position:fixed;
         top: 0;
         z-index: 6666;
-        background-color: rgba(250, 250, 250, 0.9)
+        background-color: rgba(250,250,250,0.9)
     }
 
     #navigation button i {
@@ -1295,7 +1264,7 @@ textarea.form-control {
     .navbar-nav {
         overflow-y: auto;
         display: block;
-        background: rgba(230, 230, 230, 0.25)
+        background: rgba(230,230,230,0.25)
     }
 
     .navbar-nav li a:after {
@@ -1339,8 +1308,7 @@ textarea.form-control {
         margin-bottom: 10px
     }
 
-    h1,
-    h2 {
+    h1,h2 {
         font-size: 36px
     }
 
@@ -1422,7 +1390,7 @@ textarea.form-control {
 
 @media only screen and (max-width: 575px) {
     .welcome-title {
-        font-size: 40px
+        font-size:40px
     }
 
     .welcome-first {
@@ -1430,21 +1398,19 @@ textarea.form-control {
         margin-bottom: 5px
     }
 
-    .welcome-title:before,
-    .welcome-title:after {
+    .welcome-title:before,.welcome-title:after {
         width: 100%
     }
 
-    h1,
-    h2 {
+    h1,h2 {
         font-size: 30px
     }
 
     .about-contentbox {
         line-height: 1.6
     }
-
-    *********************************************************************************************************************************** .owl-carousel .owl-item .client-img img {
+***********************************************************************************************************************************
+    .owl-carousel .owl-item .client-img img {
         max-width: 65px;
         margin-right: 10px
     }
@@ -1460,7 +1426,7 @@ textarea.form-control {
     }
 
     .skill-item {
-        border-bottom: 1px solid rgba(250, 250, 250, 0.1);
+        border-bottom: 1px solid rgba(250,250,250,0.1);
         margin-bottom: 20px;
         padding-bottom: 50px
     }
@@ -1474,7 +1440,7 @@ textarea.form-control {
         width: 100%;
         height: 6px;
         border-radius: 3px;
-        background-color: rgba(250, 250, 250, 0.25);
+        background-color: rgba(250,250,250,0.25);
         position: relative
     }
 
@@ -1501,7 +1467,7 @@ textarea.form-control {
 
 @media only screen and (max-width: 460px) {
     h4 {
-        font-size: 14px
+        font-size:14px
     }
 
     .testimonial-content:before {
@@ -1511,7 +1477,7 @@ textarea.form-control {
 
 @media only screen and (max-width: 320px) {
     .gallery-overlay p {
-        display: none
+        display:none
     }
 
     .testimonial-content:before {
