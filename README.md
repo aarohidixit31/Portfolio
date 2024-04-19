@@ -29,7 +29,7 @@ The purpose of this website is to showcase my work, skills, and expertise in web
 ## Contact Information
 
 - **Email**: aarohidixit2831@gmail.com
-- **GitHub**: aarohidixit31
+- **GitHub**: https://github.com/aarohidixit31
 
 ## Usage
 
