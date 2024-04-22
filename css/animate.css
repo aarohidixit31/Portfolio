@@ -1,4 +1,6 @@
-@charset "UTF-8";body {
+@charset "UTF-8";
+
+body {
     -webkit-backface-visibility: hidden;
 
 }
@@ -26,41 +28,57 @@
 }
 
 @-webkit-keyframes flash {
-    0%,50%,100% {
+
+    0%,
+    50%,
+    100% {
         opacity: 1
     }
 
-    25%,75% {
+    25%,
+    75% {
         opacity: 0
     }
 }
 
 @-moz-keyframes flash {
-    0%,50%,100% {
+
+    0%,
+    50%,
+    100% {
         opacity: 1
     }
 
-    25%,75% {
+    25%,
+    75% {
         opacity: 0
     }
 }
 
 @-o-keyframes flash {
-    0%,50%,100% {
+
+    0%,
+    50%,
+    100% {
         opacity: 1
     }
 
-    25%,75% {
+    25%,
+    75% {
         opacity: 0
     }
 }
 
 @keyframes flash {
-    0%,50%,100% {
+
+    0%,
+    50%,
+    100% {
         opacity: 1
     }
 
-    25%,75% {
+    25%,
+    75% {
         opacity: 0
     }
 }
@@ -73,57 +91,93 @@
 }
 
 @-webkit-keyframes shake {
-    0%,100% {
+
+    0%,
+    100% {
         -webkit-transform: translateX(0)
     }
 
-    10%,30%,50%,70%,90% {
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
         -webkit-transform: translateX(-10px)
     }
 
-    20%,40%,60%,80% {
+    20%,
+    40%,
+    60%,
+    80% {
         -webkit-transform: translateX(10px)
     }
 }
 
 @-moz-keyframes shake {
-    0%,100% {
+
+    0%,
+    100% {
         -moz-transform: translateX(0)
     }
 
-    10%,30%,50%,70%,90% {
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
         -moz-transform: translateX(-10px)
     }
 
-    20%,40%,60%,80% {
+    20%,
+    40%,
+    60%,
+    80% {
         -moz-transform: translateX(10px)
     }
 }
 
 @-o-keyframes shake {
-    0%,100% {
+
+    0%,
+    100% {
         -o-transform: translateX(0)
     }
 
-    10%,30%,50%,70%,90% {
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
         -o-transform: translateX(-10px)
     }
 
-    20%,40%,60%,80% {
+    20%,
+    40%,
+    60%,
+    80% {
         -o-transform: translateX(10px)
     }
 }
 
 @keyframes shake {
-    0%,100% {
+
+    0%,
+    100% {
         transform: translateX(0)
     }
 
-    10%,30%,50%,70%,90% {
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
         transform: translateX(-10px)
     }
 
-    20%,40%,60%,80% {
+    20%,
+    40%,
+    60%,
+    80% {
         transform: translateX(10px)
     }
 }
@@ -136,7 +190,12 @@
 }
 
 @-webkit-keyframes bounce {
-    0%,20%,50%,80%,100% {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
         -webkit-transform: translateY(0)
     }
 
@@ -150,7 +209,12 @@
 }
 
 @-moz-keyframes bounce {
-    0%,20%,50%,80%,100% {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
         -moz-transform: translateY(0)
     }
 
@@ -164,7 +228,12 @@
 }
 
 @-o-keyframes bounce {
-    0%,20%,50%,80%,100% {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
         -o-transform: translateY(0)
     }
 
@@ -178,7 +247,12 @@
 }
 
 @keyframes bounce {
-    0%,20%,50%,80%,100% {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
         transform: translateY(0)
     }
 
@@ -203,15 +277,21 @@
         -webkit-transform: scale(1)
     }
 
-    10%,20% {
+    10%,
+    20% {
         -webkit-transform: scale(.9) rotate(-3deg)
     }
 
-    30%,50%,70%,90% {
+    30%,
+    50%,
+    70%,
+    90% {
         -webkit-transform: scale(1.1) rotate(3deg)
     }
 
-    40%,60%,80% {
+    40%,
+    60%,
+    80% {
         -webkit-transform: scale(1.1) rotate(-3deg)
     }
 
@@ -225,15 +305,21 @@
         -moz-transform: scale(1)
     }
 
-    10%,20% {
+    10%,
+    20% {
         -moz-transform: scale(.9) rotate(-3deg)
     }
 
-    30%,50%,70%,90% {
+    30%,
+    50%,
+    70%,
+    90% {
         -moz-transform: scale(1.1) rotate(3deg)
     }
 
-    40%,60%,80% {
+    40%,
+    60%,
+    80% {
         -moz-transform: scale(1.1) rotate(-3deg)
     }
 
@@ -247,15 +333,21 @@
         -o-transform: scale(1)
     }
 
-    10%,20% {
+    10%,
+    20% {
         -o-transform: scale(.9) rotate(-3deg)
     }
 
-    30%,50%,70%,90% {
+    30%,
+    50%,
+    70%,
+    90% {
         -o-transform: scale(1.1) rotate(3deg)
     }
 
-    40%,60%,80% {
+    40%,
+    60%,
+    80% {
         -o-transform: scale(1.1) rotate(-3deg)
     }
 
@@ -269,15 +361,21 @@
         transform: scale(1)
     }
 
-    10%,20% {
+    10%,
+    20% {
         transform: scale(.9) rotate(-3deg)
     }
 
-    30%,50%,70%,90% {
+    30%,
+    50%,
+    70%,
+    90% {
         transform: scale(1.1) rotate(3deg)
     }
 
-    40%,60%,80% {
+    40%,
+    60%,
+    80% {
         transform: scale(1.1) rotate(-3deg)
     }
 
@@ -294,7 +392,12 @@
 }
 
 @-webkit-keyframes swing {
-    20%,40%,60%,80%,100% {
+
+    20%,
+    40%,
+    60%,
+    80%,
+    100% {
         -webkit-transform-origin: top center
     }
 
@@ -384,6 +487,7 @@
         transform: rotate(0deg)
     }
 }
+
 .swing {
     -webkit-transform-origin: top center;
     -moz-transform-origin: top center;
@@ -512,5 +616,183 @@
 
     100% {
         transform: translateX(0%)
+    }
+}
+
+.wobble {
+    -webkit-animation-name: wobble;
+    -moz-animation-name: wobble;
+    -o-animation-name: wobble;
+    animation-name: wobble
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1)
+    }
+
+    50% {
+        -webkit-transform: scale(1.1)
+    }
+
+    100% {
+        -webkit-transform: scale(1)
+    }
+}
+
+@-moz-keyframes pulse {
+    0% {
+        -moz-transform: scale(1)
+    }
+
+    50% {
+        -moz-transform: scale(1.1)
+    }
+
+    100% {
+        -moz-transform: scale(1)
+    }
+}
+
+@-o-keyframes pulse {
+    0% {
+        -o-transform: scale(1)
+    }
+
+    50% {
+        -o-transform: scale(1.1)
+    }
+
+    100% {
+        -o-transform: scale(1)
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1)
+    }
+
+    50% {
+        transform: scale(1.1)
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}
+
+.pulse {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -o-animation-name: pulse;
+    animation-name: pulse
+}
+
+@-webkit-keyframes flip {
+    0% {
+        -webkit-transform: perspective(400px) rotateY(0);
+        -webkit-animation-timing-function: ease-out
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) translateZ(150px) rotateY(170deg);
+        -webkit-animation-timing-function: ease-out
+    }
+
+    50% {
+        -webkit-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+        -webkit-animation-timing-function: ease-in
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) rotateY(360deg) scale(.95);
+        -webkit-animation-timing-function: ease-in
+    }
+
+    100% {
+        -webkit-transform: perspective(400px) scale(1);
+        -webkit-animation-timing-function: ease-in
+    }
+}
+
+@-moz-keyframes flip {
+    0% {
+        -moz-transform: perspective(400px) rotateY(0);
+        -moz-animation-timing-function: ease-out
+    }
+
+    40% {
+        -moz-transform: perspective(400px) translateZ(150px) rotateY(170deg);
+        -moz-animation-timing-function: ease-out
+    }
+
+    50% {
+        -moz-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+        -moz-animation-timing-function: ease-in
+    }
+
+    80% {
+        -moz-transform: perspective(400px) rotateY(360deg) scale(.95);
+        -moz-animation-timing-function: ease-in
+    }
+
+    100% {
+        -moz-transform: perspective(400px) scale(1);
+        -moz-animation-timing-function: ease-in
+    }
+}
+
+@-o-keyframes flip {
+    0% {
+        -o-transform: perspective(400px) rotateY(0);
+        -o-animation-timing-function: ease-out
+    }
+
+    40% {
+        -o-transform: perspective(400px) translateZ(150px) rotateY(170deg);
+        -o-animation-timing-function: ease-out
+    }
+
+    50% {
+        -o-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+        -o-animation-timing-function: ease-in
+    }
+
+    80% {
+        -o-transform: perspective(400px) rotateY(360deg) scale(.95);
+        -o-animation-timing-function: ease-in
+    }
+
+    100% {
+        -o-transform: perspective(400px) scale(1);
+        -o-animation-timing-function: ease-in
+    }
+}
+
+@keyframes flip {
+    0% {
+        transform: perspective(400px) rotateY(0);
+        animation-timing-function: ease-out
+    }
+
+    40% {
+        transform: perspective(400px) translateZ(150px) rotateY(170deg);
+        animation-timing-function: ease-out
+    }
+
+    50% {
+        transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+        animation-timing-function: ease-in
+    }
+
+    80% {
+        transform: perspective(400px) rotateY(360deg) scale(.95);
+        animation-timing-function: ease-in
+    }
+
+    100% {
+        transform: perspective(400px) scale(1);
+        animation-timing-function: ease-in
     }
 }
